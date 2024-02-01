@@ -1,0 +1,2 @@
+execute if score #is_damage sdi.temp matches 1 run data modify storage sditemp Color set value '{"text":"","color":"red"}'
+execute if score #is_damage sdi.temp matches 0 run data modify storage sditemp Color set value '{"text":"","color":"green"}'

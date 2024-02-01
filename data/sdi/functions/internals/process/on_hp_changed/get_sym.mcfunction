@@ -1,0 +1,2 @@
+execute if score #is_damage sdi.temp matches 1 run data modify storage sditemp Symbol set value '"-"'
+execute if score #is_damage sdi.temp matches 0 run data modify storage sditemp Symbol set value '"+"'

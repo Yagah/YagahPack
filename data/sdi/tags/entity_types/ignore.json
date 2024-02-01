@@ -1,0 +1,33 @@
+{
+    "values": [
+        "#minecraft:arrows",
+        "minecraft:minecart",
+        "minecraft:tnt_minecart",
+        "minecraft:command_block_minecart",
+        "minecraft:chest_minecart",
+        "minecraft:furnace_minecart",
+        "minecraft:armor_stand",
+        "minecraft:fishing_bobber",
+        "minecraft:painting",
+        "minecraft:ender_pearl",
+        "minecraft:eye_of_ender",
+        "minecraft:falling_block",
+        "minecraft:firework_rocket",
+        "minecraft:fireball",
+        "minecraft:small_fireball",
+        "minecraft:glow_item_frame",
+        "minecraft:item_frame",
+        "minecraft:item",
+        "minecraft:experience_orb",
+        "minecraft:wither_skull",
+        "minecraft:end_crystal",
+        "minecraft:area_effect_cloud",
+        "minecraft:boat",
+        "minecraft:marker",
+        "minecraft:trident",
+        "minecraft:tnt",
+        "minecraft:snowball",
+        "minecraft:egg",
+        "minecraft:evoker_fangs"
+    ]
+}

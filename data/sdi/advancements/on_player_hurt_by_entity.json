@@ -1,0 +1,9 @@
+{
+    "rewards": {
+      "function": "sdi:internals/events/on_player_hurt_by_entity"
+    },
+    "criteria": { "requirement": {
+        "trigger": "minecraft:entity_hurt_player"
+      }}
+  }
+  

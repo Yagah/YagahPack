@@ -1,0 +1,4 @@
+execute if score #total_hp_diff_abs_dec_int_pad sdi.temp matches 1.. run data modify storage sditemp Value set value '[{"score":{"name":"#total_hp_diff_abs_int","objective":"sdi.temp"}},".",{"score":{"name":"#total_hp_diff_abs_dec_int_pad","objective":"sdi.temp"}}]'
+
+execute if score #total_hp_diff_abs_dec_int_pad sdi.temp matches ..0 if score %padzero sdi.settings matches ..0 run data modify storage sditemp Value set value '{"score":{"name":"#total_hp_diff_abs_int","objective":"sdi.temp"}}'
+execute if score #total_hp_diff_abs_dec_int_pad sdi.temp matches ..0 if score %padzero sdi.settings matches 1.. run data modify storage sditemp Value set value '[{"score":{"name":"#total_hp_diff_abs_int","objective":"sdi.temp"}},".0"]'

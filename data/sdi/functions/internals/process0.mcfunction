@@ -1,0 +1,2 @@
+execute unless score @s sdi.gid.version = %current_gid_version sdi.gid.version run function sdi:internals/gid/apply_gid
+execute if score @s sdi.gid = #current_gid_to_run sdi.settings at @s run function sdi:internals/process

@@ -1,0 +1,2 @@
+execute if score #is_damage sdi.temp matches 1 run function sdi:internals/process/on_hp_changed/get_color/negative
+execute if score #is_damage sdi.temp matches 0 run function sdi:internals/process/on_hp_changed/get_color/positive
