@@ -1,5 +1,5 @@
 # Summon the hitbox
-execute as @e[type=arrow,nbt=!{inGround:1b}] at @s run summon minecraft:interaction ~ ~-0.3 ~ {Tags:["arrow_killer"],width:0.9,height:0.9}
+execute as @e[type=arrow,nbt=!{inGround:1b}] at @s run summon minecraft:interaction ~ ~-0.3 ~ {Tags:["arrow_killer"],width:1,height:1}
 
 # Store the hitbox position
 execute as @e[tag=arrow_killer] at @s store result score @s pos_x run data get entity @s Pos[0] 10
