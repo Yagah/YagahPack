@@ -1,5 +1,6 @@
 {
     "values": [
-    "vis:tick"
+    "vis:tick",
+    "arrow_stopper:tick"
  ]
 }

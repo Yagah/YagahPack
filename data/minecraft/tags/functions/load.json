@@ -1,5 +1,6 @@
 {
     "values": [
-    "vis:load"
+    "vis:load",
+    "arrow_stopper:load"
 ]
 }
